@@ -6,7 +6,7 @@ class NilIO < StringIO
   # Write to the null device. Ignores the
   # string parameter, just returning its byte length
   def write(string)
-    string.bytesize
+    string.to_s.bytesize
   end
 
   # Read form the null device.  Always returns nil.
