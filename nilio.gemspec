@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "nilio/version"
 
 Gem::Specification.new do |s|
-  s.name        = "cached_resource"
+  s.name        = "nilio"
   s.version     = "0.0.1"
   s.authors     = "Morgan Brown"
   s.email       = "brown.mhg@gmail.com"
