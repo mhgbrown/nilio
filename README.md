@@ -2,7 +2,16 @@
 
 NilIO emulates a null device
 
-## Usage
+## Install
+
+	gem install nilio
+
+## Use
+
+Make sure you got it:
+
+	>> require "nilio"
+	=> true
 
 Create a NilIO:
 
