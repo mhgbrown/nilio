@@ -1,7 +1,10 @@
 require 'stringio'
+require 'singleton'
 
 # NilIO emulates a null device (like /dev/null).
 class NilIO < StringIO
+
+  include Singleton
 
   # Write to the null device. Ignores the
   # string parameter, just returning its byte length

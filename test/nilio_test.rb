@@ -5,7 +5,7 @@ require 'nilio'
 
 class NilIOTest < Test::Unit::TestCase
   def setup
-    @null_device = NilIO.new
+    @null_device = NilIO.instance
   end
 
   def test_should_discard_any_data_written

@@ -15,7 +15,7 @@ Make sure you got it:
 
 Create a NilIO:
 
-	>> null_device = NilIO.new
+	>> null_device = NilIO.instance
 	=> #<NilIO: ... >
 
 Write to it:
@@ -26,7 +26,7 @@ Write to it:
 Read from it:
 
 	>> null_device.read(1)
-	=> 
+	=>
 
 It's always EOF:
 

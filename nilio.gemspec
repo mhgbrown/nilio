@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "nilio"
-  s.version     = "0.0.1"
+  s.version     = "1.0.0"
   s.authors     = "Morgan Brown"
   s.email       = "brown.mhg@gmail.com"
   s.homepage    = "http://github.com/discom4rt/nilio"
